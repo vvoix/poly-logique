@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <title>Comprendre les mathématiques</title>
+
+    <!-- Maths Jax -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script
+      type="text/javascript"
+      id="MathJax-script"
+      async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+    ></script>
+    <script
+      type="text/javascript"
+      id="MathJax-script"
+      async
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.0.0/es5/latest?tex-mml-chtml.js"
+    ></script>
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [
+            ["$", "$"],
+            ["\\(", "\\)"],
+          ],
+        },
+      };
+    </script>
+    <script
+      id="MathJax-script"
+      async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"
+    >
+  
+  </script>
+       <link href="index.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <!--  Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+   
+ <!-- Titre de la page  -->
+
+  <div  class="ombres" style="height: 4rem">
+    <h1> <b>CLM</b>  $\bullet$ Comprendre les mathématiques $\bullet$</h1>
+  </div>
+  
+   <!-- Navigation -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="titre.html">Les connecteurs logiques </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="mots.html"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Mots-clés
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="partie1.html">Partie 1</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="partie2.html">Partie 2</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="mots.html"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Connecteurs
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="connecteurs\et.html">Conjonction</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="connecteurs\implique.html">Implication</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Fin de Navigation -->
+
+<!-- Contenant pour les cartes -->
+
+<div class="container mt-5">  
+
+ <!-- Carte Implication -->
+<div class="d-flex flex-wrap">
+           <div class="p-2">
+  <div class="card" 
+       style="width: 20rem; height: 25.2rem; background-color:grey;border-color:darkblue; border-width: 4px;">
+
+       <div class="card-body">
+             <h3 class="card-title">
+              <center>
+                <a style="color: maroon ;">
+                  Implication
+                </a>
+              </center>
+             </h3>
+          <div class="d-flex flex-wrap">
+           <div class="p-2">
+             <ul class="list-group list-group-vertical">
+              <li class="list-group-item" style="color: maroon">symbole </li>
+              <li class="list-group-item"><center>$P\Rightarrow Q$</center> </li>
+             </ul>
+            </div>
+            <div class="p-2">
+             <ul class="list-group list-group-vertical">
+              <li class="list-group-item"style="color: maroon">notation usuelle </li>
+              <li class="list-group-item"><center> Si $P$ alors $Q$.</center> </li>
+             </ul>
+            </div>
+            <div class="p-2">
+             <ul class="list-group list-group-vertical">
+              <li class="list-group-item"style="color: maroon">Schéma de démonstration </li>
+              <li class="list-group-item"><center> Supposons $P$. Montrons $Q$.</center> </li>
+             </ul>
+            </div>
+            <div class="p-2">
+             <ul class="list-group list-group-vertical">
+              <li class="list-group-item"style="color: maroon">Schéma d'utilisation s. c. : $P$</li>
+              <li class="list-group-item"><center> <a> Puisque $P$,</a>  <a style="color:darkblue;"> on a : </a> $Q$.</a></center> </li>
+             </ul>
+            </div>
+          </div>
+      </div>
+  </div>
+
+ </div>
+  <!-- Carte Conjonction -->
+
+<div class="p-2">
+  <div class="card" 
+       style="width: 20rem; height: 25.2rem; background-color:grey;border-color:darkblue; border-width: 4px;">
+
+       <div class="card-body">
+             <h3 class="card-title">
+              <center>
+                <a style="color: maroon ;">
+                  Conjonction
+                </a>
+              </center>
+             </h3>
+          <div class="d-flex flex-wrap">
+           <div class="p-2">
+             <ul class="list-group list-group-vertical">
+              <li class="list-group-item" style="color: maroon">symbole </li>
+              <li class="list-group-item"><center>$P\land Q$</center> </li>
+             </ul>
+            </div>
+            <div class="p-2">
+             <ul class="list-group list-group-vertical">
+              <li class="list-group-item"style="color: maroon">notation usuelle </li>
+              <li class="list-group-item"><center> On a $P$ et $Q$.</center> </li>
+             </ul>
+            </div>
+            <div class="p-2">
+             <ul class="list-group list-group-vertical">
+              <li class="list-group-item"style="color: maroon">Schéma de démonstration </li>
+              <li class="list-group-item">
+                <ul>
+                <li>
+                  Montrons $P$.
+                </li>
+                <li>
+                  Montrons $Q$.
+                </li>
+              </ul>
+              </li>
+             </ul>
+            </div>
+            <div class="p-2">
+             <ul class="list-group list-group-vertical">
+              <li class="list-group-item"style="color: maroon">Schéma d'utilisation </li>
+              <li class="list-group-item"> <a> On a $P$. On a $Q$.</a> </li>
+             </ul>
+            </div>
+          </div>
+      </div>
+  </div>
+ </div>
+</div>
+
+    
+  </body>
+</html>
